@@ -2,5 +2,5 @@ package sink;
 
 public interface Sink {
     
-    public abstract void logMessage(String message);
+    public void logMessage(String message);
 }
